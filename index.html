@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practise</title>
+
+	<style>
+
+.winner{
+	color:green;
+
+}
+body{
+	background-color: #555;
+
+}
+.no{
+	text-align: center;
+	margin-top: 200px;
+	color: white;
+	font-size:30px;
+
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  transition: 0.3s;
+  width: 15%;
+	margin-left:  200px;
+	margin-top:-250px;
+}
+.card1 {
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  transition: 0.3s;
+  width: 15%;
+	margin-left:930px;
+	margin-top:-290px;
+}
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+	</style>
+
+</head>
+<body>
+
+	<div class="container no">
+			<h1 id="title">Game calculator</h1>
+
+<h1><span  id="p1dis">0</span> to <span id="p2dis"> 0 </span></h1>
+<p>playing to: <span>5</span></p>
+<input type="number" name="" min="1">
+<button id="p1">player 1</button>
+<button id="p2">player 2</button>
+<button id="reset">reset</button>
+</div>
+
+<div class="card">
+  <img src="image.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4 id="name1"><b></b></h4>
+		<!-- <h4><b>f</b></h4> -->
+    <p>Player 1</p>
+		<input type="text" id="name">
+  </div>
+</div>
+<div class="card1">
+  <img src="image.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4 id="name2"><b></b></h4>
+    <p>Player 2</p>
+		<input type="text" id="namee">
+
+  </div>
+</div>
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
